@@ -1,0 +1,35 @@
+input:focus,
+textarea:focus {
+  border: 2px solid #a26061; /* soft reddish tone */
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid #a56064; /* warm red-pink */
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border: 2px solid #4f3938; /* deep earthy tone */
+}
+
+button:hover {
+  background-color: #b37b7f; /* muted rose */
+}
+
+.radio-group input[type="radio"]:checked {
+  border: 2px solid #91514e;
+  background-color: #a77a7d;
+  box-shadow: 2px 2px 5px #504543;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: #1f1611; /* dark text for contrast */
+}
+
+input:first-of-type {
+  border: 3px solid #bda594;
+  background-color: #a26d67;
+}

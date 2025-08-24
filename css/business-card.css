@@ -1,0 +1,52 @@
+body {
+    background: rgba(150, 53, 108, 1);
+    font-family: Arial, sans-serif;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* I WANT TO ADD ANIMATION TO THE BUSINESS CARD PORTION OF THIS PAGE.---
+I MAY ALSO TRY TO DO IT TO THE BACKGROUND BEHIND THE BUSINESS CARD AS WELL. --
+HAVE TO FIND SHAPES AND OBJECTS I CAN CHOOSE FROM. 
+*/
+
+.business-card {
+    border: 2px solid #99be4f;
+    border-radius: 16px;
+    padding: 20px;
+    width: 300px;
+    max-width: 400px;
+    background-color: rosybrown;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+/*--- Link colors, image/icon replacements, e.t.c ---
+*/
+
+a {
+    text-decoration: none;
+}
+
+/*--- Add some effects to the hover effect; Animation, colors, after effects, e.t.c---
+*/
+
+.business-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px);
+}
+
+.profile-image {
+    max-width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+}

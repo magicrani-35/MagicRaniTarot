@@ -1,0 +1,54 @@
+body {
+    background-color: #4f1137;
+    color: #1982c3;
+    font-family: '\f2b4', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    border: 1px dotted #08629e;
+    padding: 10px;
+    text-align: center;
+    text-shadow: #1c022c 1px 1px 2px;
+}
+
+.text-rose-red {
+    color: var(--rose-red);
+}
+
+.text-sky-blue {
+    color: var(--sky-blue);
+}
+
+.text-goldenrod {
+    color: var(--goldenrod);
+}
+
+.large {
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* ==== Magic Rani's Color Palette ==== */
+:root {
+    /* Deep Maroon: #4f1137 - Background color */
+    /* Bright Blue: #1982c3 - Default text, headings */
+    /* Dark Blue: #08629e - Border accents, headers */
+    /* Pale Gold: #f4d35e - Highlights, icons, buttons */
+    /* Coral Red: #e63946 - Call-to-action elements, highlights */
+    /* Soft Gray: #f0f0f0 - Alternative background or text */
+
+    --deep-maroon: #4f1137;
+    --bright-blue: #1982c3;
+    --dark-blue: #08629e;
+    --pale-gold: #f4d35e;
+    --coral-red: #e63946;
+    --soft-gray: #f0f0f0;
+    --rose-red: rgb(138, 15, 87);
+    --sky-blue: #0000ff;
+    --goldenrod: #daa520;
+}

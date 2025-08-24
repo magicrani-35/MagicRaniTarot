@@ -1,0 +1,10 @@
+/* This is a Linear Gradient Background CSS */
+/* The gradient transitions from a dark color to a light color */
+/* I love these colors and want to use them for branding of my personal project.*/
+
+background: linear-gradient(
+        120deg, 
+        #231F20 0%,     
+        #7B3B6B 50%,    
+        #888D22 100%    
+      );

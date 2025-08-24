@@ -1,0 +1,86 @@
+
+input:focus,
+textarea:focus {
+  border: 2px solid #a56064; /* focus color */
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid #b37b7f; /* invalid reddish */
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border: 2px solid #4f3938; /* valid dark tone */
+}
+
+button:hover {
+  background-color: #bda594; /* soft tan hover */
+}
+
+.radio-group input[type="radio"]:checked {
+  border: 2px solid #91514e;
+  background-color: #a26d67;
+  box-shadow: 2px 2px 5px #504543;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: #1f1611; /* very dark accent */
+}
+
+input:first-of-type {
+  border: 3px solid black;
+  background-color: #a77a7d;
+} 
+
+
+/*input:focus,
+textarea:focus {
+  border: 2px solid orange;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border: 2px solid green;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+.radio-group input[type="radio"]:checked {
+  border:2px solid purple;
+  background-color:  violet;
+  box-shadow: 2px 2px 5px teal;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: slateblue;
+}
+
+input:first-of-type {
+  border: 3px solid black;
+  background-color: slategray;
+}*/
+/* Color picks for this page and overall MagicRani brand theme:
+Hex value:
+#b37b7f
+#1f1611
+#a26061
+#bda594 (light beige/khaki type color, not fond of it.)
+#a26d67
+#4f3938
+#91514e
+#a77a7d
+#504543 
+#a56064
+*/

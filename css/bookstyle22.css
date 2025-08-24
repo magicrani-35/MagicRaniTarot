@@ -1,0 +1,163 @@
+/* -----------------------------------------------
+  INPUT, TEXTAREA, SELECT: Shared styling
+------------------------------------------------ */
+input:focus,
+textarea:focus {
+  border: 2px solid #a26061; /* soft muted red */
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid #b37b7f; /* rosy pinkish tone */
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border: 2px solid #4f3938; /* deep brown for approval */
+}
+
+input:first-of-type {
+  border: 3px solid #a56064; /* rich rose border */
+  background-color: #a26d67; /* muted warm background */
+}
+
+/* -----------------------------------------------
+  LABELS: Bold and colored
+------------------------------------------------ */
+label {
+  color: #4f3938; /* deep brown text */
+  font-weight: bold;
+  display: block; /* ensures label stays above inputs */
+}
+
+/* -----------------------------------------------
+  FORM ELEMENTS: Consistent padding, colors, border-radius
+------------------------------------------------ */
+input,
+textarea,
+select {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #b37b7f;
+  background-color: #f8f4f3; /* light neutral base */
+  color: #1f1611;
+  box-sizing: border-box;
+}
+
+/* -----------------------------------------------
+  BUTTONS: Style & hover effects
+------------------------------------------------ */
+button {
+  background-color: #bda594; /* beige base */
+  color: #1f1611; /* chocolate text */
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto; /* center button */
+}
+
+button:hover {
+  background-color: #a77a7d; /* mauve-rose hover */
+  color: #fff;
+}
+
+/* -----------------------------------------------
+  RADIO BUTTONS: Checked state & label coloring
+------------------------------------------------ */
+.radio-group input[type="radio"]:checked {
+  border: 2px solid #504543;  /* earthy gray */
+  background-color: #bda594; /* beige fill */
+  box-shadow: 2px 2px 5px #91514e; /* warm shadow */
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: #1f1611; /* deep chocolate brown */
+}
+
+.radio-group label {
+  margin-left: 0.5rem;
+  color: #4f3938;
+}
+
+/* -----------------------------------------------
+  PAGE & FORM CONTAINER
+------------------------------------------------ */
+body {
+  background-color: #f8f4f3; /* soft neutral */
+  font-family: Arial, sans-serif;
+  color: #1f1611;
+}
+
+/* Form container max width with centering */
+form {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 20px;
+}
+
+/* -----------------------------------------------
+  FORM ROWS: Layout rows with flexbox
+------------------------------------------------ */
+/* Default left-aligned row for most fields */
+.form-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Centered rows (deck theme/select reading, radio group) */
+.center-row {
+  justify-content: center;
+}
+
+/* -----------------------------------------------
+  FORM GROUP: Controls each label-input grouping
+------------------------------------------------ */
+.form-group {
+  flex: 1 1 250px;
+  min-width: 180px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+
+/* -----------------------------------------------
+  RADIO GROUP FIELDSET: layout & centering
+------------------------------------------------ */
+.radio-group {
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  padding: 15px;
+}
+
+/* -----------------------------------------------
+  INQUIRY TEXTAREA: center and size adjustment
+------------------------------------------------ */
+.inquiry {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inquiry textarea {
+  width: 80%;
+  max-width: 500px;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #b37b7f;
+  background-color: #f8f4f3;
+  color: #1f1611;
+  box-sizing: border-box;
+}
